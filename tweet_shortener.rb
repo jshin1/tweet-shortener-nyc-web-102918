@@ -12,6 +12,7 @@ def dictionary = {
 
 def word_substituter(string)
   
-  
+  string.split.collect do |word|
+    
 
 end
