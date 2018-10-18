@@ -12,7 +12,11 @@ def dictionary = {
 
 def word_substituter(string)
   
-  string.split.collect do |word|
-    
-
+  tweet = string.split.collect do |word|
+    if dictionary.keys.include?(word.downcase)
+      word = dictionary[word.downcase]
+    else
+      word
+    end
+  tweet.join
 end
