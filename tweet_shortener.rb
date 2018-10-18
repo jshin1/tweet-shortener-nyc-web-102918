@@ -12,6 +12,8 @@ dictionary = {
 
 def word_substituter(string)
   
-  string.split
+  array = string.split
+  array.collect do |word|
+    if word == 
 
 end
