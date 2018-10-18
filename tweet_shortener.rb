@@ -20,6 +20,5 @@ def word_substituter(string)
       word = dictionary.values
     end
   end
-  
 
 end
