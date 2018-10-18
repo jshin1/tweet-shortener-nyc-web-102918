@@ -1,6 +1,10 @@
 # Write your code here.
 
-dictionary = {
+
+
+def word_substituter(string)
+  
+  dictionary = {
   "hello" => "hi",
   "to, two, too" => "2",
   "for, four" => "4",
@@ -10,10 +14,12 @@ dictionary = {
   "and" => "&"
 }
 
-def word_substituter(string)
-  
   array = string.split
   array.collect do |word|
-    if word == 
+    if word == dictionary.keys
+      word = dictionary.values
+    end
+  end
+  
 
 end
