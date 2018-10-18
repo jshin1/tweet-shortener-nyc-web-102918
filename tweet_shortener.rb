@@ -18,5 +18,6 @@ def word_substituter(string)
     else
       word
     end
+  end
   tweet.join
 end
