@@ -9,3 +9,9 @@ dictionary = {
   "at" => "@",
   "and" => "&"
 }
+
+def word_substituter(string)
+  
+  string.split
+
+end
